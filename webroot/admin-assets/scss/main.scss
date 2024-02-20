@@ -1,0 +1,148 @@
+//@import '../vendor/bootstrap/scss/bootstrap-flex';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import './bootstrap/scss/bootstrap';
+@import "../vendor/pace/themes/blue/pace-theme-minimal.css";
+@import "../vendor/font-awesome/scss/font-awesome.scss";
+@import "../vendor/animate.css/animate.css";
+@import "../vendor/select2/css/select2.css";
+/*@import "../vendor/select2/select2-bootstrap.css";*/
+@import "../vendor/selectize/dist/css/selectize.css";
+@import "../vendor/bootstrap-daterangepicker/daterangepicker.css";
+@import "../vendor/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css";
+@import "../vendor/fullcalendar/dist/fullcalendar.min.css";
+
+
+@import "app";
+//@import "app.skins";
+
+
+.view{
+  .column-equal{
+    .col:first-child{
+      width:128px;
+    }
+  }
+}
+
+
+table {
+  .form-group.form-md-line-input{
+    margin: 0;
+    padding:0;
+  }
+
+  tr.strikeout td:before {
+      content: " ";
+      position: absolute;
+      top: 48%;
+      left: 0;
+      border-bottom: 1px solid #111;
+      width: 100%;
+  }
+
+
+}
+strong{
+  font-weight: 700;
+}
+
+.acta-view{
+  color: black;
+  overflow: hidden;
+  p{
+    word-break: break-word;
+  }
+}
+
+
+@media print {
+   #__debug_kit + iframe{display:none;}
+  .main-panel{background: #fff;}
+  .pace,
+  .app-noty-top-left,
+  .app-noty-top-right,
+  .app-noty{display:none !important;}
+}
+
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
+.registrations.form{
+  .form-group.checkbox,.form-group.select{margin-top:0!important;padding-top:0px !important;margin-bottom:5px !important;}
+  .form-group.text,.form-group.number{margin-bottom:5px !important;}
+  legend{margin-bottom:3px;border-bottom:1px solid #f5f5f5;}
+  /*.form-group.form-md-line-input:not(.checkbox).form-md-floating-label .form-control ~ label{
+    top:10px;
+  }*/
+
+}
+
+.registrations.index{
+  table{
+    td{
+      font-size:11px;
+      padding-left:3px;padding-right:0px;
+    }
+  }
+}
+
+
+
+  .registrations.form .form-group.checkbox, .registrations.form .form-group.select {
+    margin-top: 0 !important;
+    padding-top: 0px !important;
+    margin-bottom: 5px !important; }
+  .registrations.form .form-group.text, .registrations.form .form-group.number {
+    margin-bottom: 5px !important; }
+  .registrations.form legend {
+    margin-bottom: 3px;
+    border-bottom: 1px solid #f5f5f5; }
+
+.registrations.index table td {
+  font-size: 11px;
+  padding-left: 3px;
+  padding-right: 0px; }
+
+#filters{
+  zoom:0.9;
+}
+#filters .form-group.form-md-line-input:not(.checkbox){
+  margin:0;
+}
+
+
+.date .selectize-control,
+.datetime .selectize-control{
+  display: inline-block;
+  width: 140px;
+}
+
+.form-control-borderless {
+  border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.bootstrap-table .fixed-table-container .table thead th .desc,
+.bootstrap-table .fixed-table-container .table thead th .asc{
+  display: block;
+  background-repeat: no-repeat;
+  background-position: right center;
+}

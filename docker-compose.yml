@@ -1,0 +1,74 @@
+mailhog:
+  image: mailhog/mailhog:latest
+  container_name: mailhog
+  ports:
+    - "8025:8025"
+    - "1025:1025"
+postgres:
+    image: postgres:13.2
+    environment:
+        - POSTGRES_DB=superliga
+        - POSTGRES_PASSWORD=superliga
+    ports:
+        - 5432:5432
+    volumes:
+      - ./sql:/sql
+      - ./sql/init.postgres.sql:/docker-entrypoint-initdb.d/init.sql
+redis:
+  image: redis:latest
+  container_name: redis
+  ports:
+      - 6379:6379
+
+node:
+  build: ./socket-jugadasuperliga
+  command: npm start
+  container_name: node
+  ports:
+    - 3000:3000
+  volumes:
+    - ./socket-jugadasuperliga:/usr/src/app
+    - /usr/src/app/node_modules
+  links:
+    - redis
+worker:
+  build: ./worker-jugadasuperliga
+  command: npm start
+  container_name: worker
+  volumes:
+    - ./worker-jugadasuperliga:/usr/src/app
+    - /usr/src/app/node_modules
+  links:
+    - node
+    - postgres
+php-fpm:
+  build: .
+  dockerfile: php-fpm/Dockerfile
+  container_name: php-fpm
+  volumes:
+    - ./:/var/www/localhost
+    - ./php-fpm/php-ini-overrides.ini:/etc/php/8.0/fpm/conf.d/99-overrides.ini
+  links:
+    - mailhog
+    - postgres
+    - redis
+nginx:
+  image: nginx:latest
+  container_name: nginx
+  volumes:
+      - ./:/var/www/localhost
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+  ports:
+    - "8080:80"
+  links:
+    - php-fpm
+phppgadmin:
+  restart: always
+  image: docker.io/bitnami/phppgadmin:latest
+  ports:
+  - "9000:8080"
+  environment:
+  - DATABASE_HOST=postgres
+  links:
+    - postgres
+

@@ -1,0 +1,6 @@
+[submodule "socket-jugadasuperliga"]
+	path = socket-jugadasuperliga
+	url = git@bitbucket.org:mocla/socket-jugadasuperliga.git
+[submodule "worker-jugadasuperliga"]
+	path = worker-jugadasuperliga
+	url = git@bitbucket.org:mocla/worker-jugadasuperliga.git

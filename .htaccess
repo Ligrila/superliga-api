@@ -1,0 +1,23 @@
+# Uncomment the following to prevent the httpoxy vulnerability
+# See: https://httpoxy.org/
+#<IfModule mod_headers.c>
+#    RequestHeader unset Proxy
+#</IfModule>
+
+RewriteCond %{HTTP_HOST} ^get\.jugadasuperliga\.com$ [NC]
+RewriteRule ^(.*)$ https://www.jugadasuperliga.com/get/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jugadasuperliga\.com$ [NC]
+RewriteCond %{HTTPS} !=on 
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+RewriteCond %{HTTP_HOST} ^www\.jugadasuperliga\.com$ [NC]
+RewriteCond %{HTTPS} !=on 
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    #RewriteRule    ^(\.well-known/.*)$ $1 [L]
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+</IfModule>

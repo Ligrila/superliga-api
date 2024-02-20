@@ -1,0 +1,8 @@
+All the database is changes are here, here are a lot of test to ignore.
+
+Important files:
+
+db.sql : have the last pg dump of the working database. Maybe it is huge.
+export.sh: to export working database. Must be run in the postgres container, in the /sql directory.
+*.updates.sql: Mantain the changes from the original database to the new schema. Also you can run it sequentially and it will update the original database.
+init.postgres.sql: it is the init database used to build the container.

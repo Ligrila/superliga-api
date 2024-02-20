@@ -1,0 +1,837 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-07-19 09:06-0300\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/TriviasController.php:55;81
+#: Controller/Admin/TriviasController.php:58;84
+msgid "The trivia has been saved."
+msgstr ""
+
+#: Controller/TriviasController.php:59;85
+#: Controller/Admin/TriviasController.php:62;88
+msgid "The trivia could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TriviasController.php:104
+#: Controller/Admin/TriviasController.php:107
+msgid "The trivia has been deleted."
+msgstr ""
+
+#: Controller/TriviasController.php:106
+#: Controller/Admin/TriviasController.php:109
+msgid "The trivia could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:31;63
+msgid "Nombre de usuario o contraseñas incorrectas"
+msgstr ""
+
+#: Controller/UsersController.php:87;98
+msgid "Se produjo un error creando el usuario"
+msgstr ""
+
+#: Controller/Admin/SuperusersController.php:28
+msgid "Tu nombre de usuario o contraseña no son correctos."
+msgstr ""
+
+#: Controller/Admin/SuperusersController.php:93;117
+msgid "The superuser has been saved."
+msgstr ""
+
+#: Controller/Admin/SuperusersController.php:97;121
+msgid "The superuser could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/SuperusersController.php:138
+msgid "The superuser has been deleted."
+msgstr ""
+
+#: Controller/Admin/SuperusersController.php:140
+msgid "The superuser could not be deleted. Please, try again."
+msgstr ""
+
+#: Template/Admin/Superusers/add.ctp:2
+#: Template/Admin/Superusers/edit.ctp:2
+#: Template/Admin/Superusers/view.ctp:2
+#: Template/Admin/Trivias/add.ctp:2
+#: Template/Admin/Trivias/edit.ctp:2
+#: Template/Admin/Trivias/view.ctp:2
+msgid "Listado"
+msgstr ""
+
+#: Template/Admin/Superusers/add.ctp:7
+msgid "Agregar Superuser"
+msgstr ""
+
+#: Template/Admin/Superusers/add.ctp:16
+#: Template/Admin/Superusers/login.ctp:16
+#: Template/Admin/Superusers/view.ctp:27
+msgid "Email"
+msgstr ""
+
+#: Template/Admin/Superusers/add.ctp:17
+msgid "Contraseña"
+msgstr ""
+
+#: Template/Admin/Superusers/add.ctp:18
+msgid "Nombre"
+msgstr ""
+
+#: Template/Admin/Superusers/add.ctp:19
+msgid "Apellido"
+msgstr ""
+
+#: Template/Admin/Superusers/add.ctp:23
+#: Template/Admin/Superusers/edit.ctp:49
+#: Template/Admin/Trivias/add.ctp:22
+#: Template/Admin/Trivias/edit.ctp:28
+msgid "Enviar"
+msgstr ""
+
+#: Template/Admin/Superusers/edit.ctp:4
+#: Template/Admin/Superusers/index.ctp:33
+#: Template/Admin/Trivias/edit.ctp:4
+#: Template/Admin/Trivias/index.ctp:33
+msgid "Borrar"
+msgstr ""
+
+#: Template/Admin/Superusers/edit.ctp:6
+#: Template/Admin/Trivias/edit.ctp:6
+msgid "¿Estás seguro de borrar el item # {0}?"
+msgstr ""
+
+#: Template/Admin/Superusers/edit.ctp:13
+msgid "Editar Superuser"
+msgstr ""
+
+#: Template/Admin/Superusers/index.ctp:3
+msgid "Superusers"
+msgstr ""
+
+#: Template/Admin/Superusers/index.ctp:18;30
+#: Template/Admin/Trivias/index.ctp:18;30
+msgid "Acciones"
+msgstr ""
+
+#: Template/Admin/Superusers/index.ctp:31
+#: Template/Admin/Trivias/index.ctp:31
+msgid "Ver"
+msgstr ""
+
+#: Template/Admin/Superusers/index.ctp:32
+#: Template/Admin/Superusers/view.ctp:4
+#: Template/Admin/Trivias/index.ctp:32
+#: Template/Admin/Trivias/view.ctp:4
+msgid "Editar"
+msgstr ""
+
+#: Template/Admin/Superusers/index.ctp:33
+#: Template/Admin/Trivias/index.ctp:33
+msgid "¿Estas seguro de borrar el item # {0}?"
+msgstr ""
+
+#: Template/Admin/Superusers/login.ctp:19
+msgid "password"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:31
+msgid "Role"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:35
+msgid "Password"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:39
+msgid "First Name"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:43
+msgid "Last Name"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:47
+msgid "Hash"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:51
+msgid "Document"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:55
+msgid "Address"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:59
+msgid "Postal Code"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:63
+msgid "Phone"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:67
+msgid "Mobile Phone"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:71
+msgid "Fax"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:75
+msgid "Dir"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:79
+msgid "Image"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:83
+msgid "City"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:87
+msgid "Province"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:91
+msgid "Nationality"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:95
+#: Template/Admin/Trivias/view.ctp:27;56;87
+#: Template/Trivias/view.ctp:24;53;84
+msgid "Id"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:99
+msgid "Login Count"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:103
+msgid "Created By"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:107
+msgid "Modified By"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:111
+msgid "Last Login"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:115
+msgid "Birth Date"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:119
+#: Template/Admin/Trivias/view.ctp:43;61;96
+#: Template/Trivias/view.ctp:40;58;93
+msgid "Created"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:123
+#: Template/Admin/Trivias/view.ctp:47;97
+#: Template/Trivias/view.ctp:44;94
+msgid "Modified"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:127
+msgid "Enabled"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:128;132;136
+msgid "Yes"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:128;132;136
+msgid "No"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:131
+msgid "Deleted"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:135
+msgid "Receive Emails"
+msgstr ""
+
+#: Template/Admin/Superusers/view.ctp:140
+msgid "About"
+msgstr ""
+
+#: Template/Admin/Trivias/add.ctp:7
+msgid "Agregar Trivia"
+msgstr ""
+
+#: Template/Admin/Trivias/edit.ctp:13
+msgid "Editar Trivia"
+msgstr ""
+
+#: Template/Admin/Trivias/index.ctp:3
+#: Template/Trivias/index.ctp:18
+msgid "Trivias"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:31
+#: Template/Trivias/view.ctp:28
+msgid "Local Club Id"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:35
+#: Template/Trivias/view.ctp:32
+msgid "Visit Club Id"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:39
+#: Template/Trivias/view.ctp:36
+msgid "Start Datetime"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:52
+#: Template/Trivias/view.ctp:49
+msgid "Related Processed Answers"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:57;88
+#: Template/Trivias/view.ctp:54;85
+msgid "Trivia Id"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:58
+#: Template/Trivias/view.ctp:55
+msgid "Answer Id"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:59
+#: Template/Trivias/view.ctp:56
+msgid "User Id"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:60
+#: Template/Trivias/view.ctp:57
+msgid "Successful"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:62;98
+#: Template/Trivias/add.ctp:9
+#: Template/Trivias/edit.ctp:9
+#: Template/Trivias/index.ctp:9;28
+#: Template/Trivias/view.ctp:9;59;95
+msgid "Actions"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:73;114
+#: Template/Trivias/index.ctp:41
+#: Template/Trivias/view.ctp:70;111
+#: View/Helper/PaginatorHelper.php:1212
+msgid "View"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:74;115
+#: Template/Trivias/index.ctp:42
+#: Template/Trivias/view.ctp:71;112
+msgid "Edit"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:75;116
+#: Template/Trivias/edit.ctp:11
+#: Template/Trivias/index.ctp:43
+#: Template/Trivias/view.ctp:72;113
+msgid "Delete"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:75;116
+#: Template/Trivias/edit.ctp:13
+#: Template/Trivias/index.ctp:43
+#: Template/Trivias/view.ctp:11;72;113
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:83
+#: Template/Trivias/view.ctp:80
+msgid "Related Questions"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:89
+#: Template/Trivias/view.ctp:86
+msgid "Question"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:90
+#: Template/Trivias/view.ctp:87
+msgid "Option 1"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:91
+#: Template/Trivias/view.ctp:88
+msgid "Option 2"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:92
+#: Template/Trivias/view.ctp:89
+msgid "Option 3"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:93
+#: Template/Trivias/view.ctp:90
+msgid "Correct Option"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:94
+#: Template/Trivias/view.ctp:91
+msgid "Finished"
+msgstr ""
+
+#: Template/Admin/Trivias/view.ctp:95
+#: Template/Trivias/view.ctp:92
+msgid "Finished Datetime"
+msgstr ""
+
+#: Template/Element/Layout/footer.ctp:4
+msgid "Terminos y condiciones"
+msgstr ""
+
+#: Template/Element/Layout/footer.ctp:5
+msgid "Vender online"
+msgstr ""
+
+#: Template/Element/Layout/footer.ctp:6
+#: Template/Element/Layout/header.ctp:26
+msgid "Contactenos"
+msgstr ""
+
+#: Template/Element/Layout/footer.ctp:7
+msgid "Cotización"
+msgstr ""
+
+#: Template/Element/Layout/footer.ctp:8
+msgid "Preguntas frecuentes"
+msgstr ""
+
+#: Template/Element/Layout/header.ctp:23
+msgid "Cotizacion"
+msgstr ""
+
+#: Template/Element/Layout/header.ctp:29
+msgid "FAQ"
+msgstr ""
+
+#: Template/Element/Layout/header.ctp:33
+msgid "Iniciar sesión"
+msgstr ""
+
+#: Template/Element/Layout/header.ctp:36
+msgid "Registrarse"
+msgstr ""
+
+#: Template/Element/Layout/header.ctp:40
+msgid "Dashboard"
+msgstr ""
+
+#: Template/Element/Layout/header.ctp:43
+msgid "Cerrar sesión"
+msgstr ""
+
+#: Template/Element/Layout/header.ctp:57
+msgid "Iniciar Sesión"
+msgstr ""
+
+#: Template/Element/Layout/header.ctp:74
+msgid "ingresar"
+msgstr ""
+
+#: Template/Element/Layout/toolbar.ctp:23
+msgid "Mi perfil"
+msgstr ""
+
+#: Template/Element/Layout/toolbar.ctp:26
+msgid "Mis movimientos"
+msgstr ""
+
+#: Template/Element/Layout/toolbar.ctp:29
+msgid "Comprar"
+msgstr ""
+
+#: Template/Element/Layout/toolbar.ctp:32
+msgid "Vender"
+msgstr ""
+
+#: Template/Layout/error.ctp:35
+#: Template/Error/error400.ctp:36
+#: Template/Error/error500.ctp:41
+msgid "Error"
+msgstr ""
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr ""
+
+#: Template/Trivias/add.ctp:10
+#: Template/Trivias/edit.ctp:16
+#: Template/Trivias/view.ctp:12
+msgid "List Trivias"
+msgstr ""
+
+#: Template/Trivias/add.ctp:11
+#: Template/Trivias/edit.ctp:17
+#: Template/Trivias/index.ctp:11
+#: Template/Trivias/view.ctp:14
+msgid "List Processed Answers"
+msgstr ""
+
+#: Template/Trivias/add.ctp:12
+#: Template/Trivias/edit.ctp:18
+#: Template/Trivias/index.ctp:12
+#: Template/Trivias/view.ctp:15
+msgid "New Processed Answer"
+msgstr ""
+
+#: Template/Trivias/add.ctp:13
+#: Template/Trivias/edit.ctp:19
+#: Template/Trivias/index.ctp:13
+#: Template/Trivias/view.ctp:16
+msgid "List Questions"
+msgstr ""
+
+#: Template/Trivias/add.ctp:14
+#: Template/Trivias/edit.ctp:20
+#: Template/Trivias/index.ctp:14
+#: Template/Trivias/view.ctp:17
+msgid "New Question"
+msgstr ""
+
+#: Template/Trivias/add.ctp:20
+msgid "Add Trivia"
+msgstr ""
+
+#: Template/Trivias/add.ctp:27
+#: Template/Trivias/edit.ctp:33
+#: View/Helper/FormHelper.php:1986
+msgid "Submit"
+msgstr ""
+
+#: Template/Trivias/edit.ctp:26
+#: Template/Trivias/view.ctp:10
+msgid "Edit Trivia"
+msgstr ""
+
+#: Template/Trivias/index.ctp:10
+#: Template/Trivias/view.ctp:13
+msgid "New Trivia"
+msgstr ""
+
+#: Template/Trivias/index.ctp:51
+msgid "first"
+msgstr ""
+
+#: Template/Trivias/index.ctp:52
+msgid "previous"
+msgstr ""
+
+#: Template/Trivias/index.ctp:54
+msgid "next"
+msgstr ""
+
+#: Template/Trivias/index.ctp:55
+msgid "last"
+msgstr ""
+
+#: Template/Trivias/index.ctp:57
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr ""
+
+#: Template/Trivias/view.ctp:11
+msgid "Delete Trivia"
+msgstr ""
+
+#: Template/Error/error400.ctp:37
+msgid "The requested address {0} was not found on this server."
+msgstr ""
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:500
+msgid "You are not authorized to access that location."
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:162
+#: Http/Middleware/CsrfProtectionMiddleware.php:190
+msgid "Missing CSRF token cookie"
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:166
+#: Http/Middleware/CsrfProtectionMiddleware.php:194
+msgid "CSRF token mismatch."
+msgstr ""
+
+#: Error/ExceptionRenderer.php:262
+msgid "Not Found"
+msgstr ""
+
+#: Error/ExceptionRenderer.php:264
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: Http/Response.php:2603
+msgid "The requested file contains `..` and will not be read."
+msgstr ""
+
+#: Http/Response.php:2624
+msgid "The requested file was not found"
+msgstr ""
+
+#: I18n/Number.php:90
+msgid "{0,number,#,###.##} KB"
+msgstr ""
+
+#: I18n/Number.php:92
+msgid "{0,number,#,###.##} MB"
+msgstr ""
+
+#: I18n/Number.php:94
+msgid "{0,number,#,###.##} GB"
+msgstr ""
+
+#: I18n/Number.php:96
+msgid "{0,number,#,###.##} TB"
+msgstr ""
+
+#: I18n/Number.php:88
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} after"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} before"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:114
+msgid "just now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a second ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about a minute ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:153
+msgid "about an hour ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:154;332
+msgid "about a day ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:155;333
+msgid "about a week ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:156;334
+msgid "about a month ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:157;335
+msgid "about a year ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:168
+msgid "in about a second"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:169
+msgid "in about a minute"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:170
+msgid "in about an hour"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:171;346
+msgid "in about a day"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:172;347
+msgid "in about a week"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:173;348
+msgid "in about a month"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:174;349
+msgid "in about a year"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:304
+msgid "today"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:370
+msgid "%s ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:371
+msgid "on %s"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:47;126;316
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:51;129;319
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:57;132;322
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:59;135;325
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:64;138
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:68;141
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:72;144
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ORM/RulesChecker.php:57
+msgid "This value is already in use"
+msgstr ""
+
+#: ORM/RulesChecker.php:104
+msgid "This value does not exist"
+msgstr ""
+
+#: ORM/RulesChecker.php:128
+msgid "The count does not match {0}{1}"
+msgstr ""
+
+#: Utility/Text.php:917
+msgid "and"
+msgstr ""
+
+#: Validation/Validator.php:111
+msgid "This field is required"
+msgstr ""
+
+#: Validation/Validator.php:112
+msgid "This field cannot be left empty"
+msgstr ""
+
+#: Validation/Validator.php:2054
+msgid "The provided value is invalid"
+msgstr ""
+
+#: View/Helper/FormHelper.php:1097
+msgid "Edit {0}"
+msgstr ""
+
+#: View/Helper/FormHelper.php:1099
+msgid "New {0}"
+msgstr ""
+
+#: View/Helper/HtmlHelper.php:815
+msgid "Home"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "January"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "February"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:542
+msgid "March"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:543
+msgid "April"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:544
+msgid "May"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:545
+msgid "June"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:546
+msgid "July"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:547
+msgid "August"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:548
+msgid "September"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:549
+msgid "October"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:550
+msgid "November"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:551
+msgid "December"
+msgstr ""
+

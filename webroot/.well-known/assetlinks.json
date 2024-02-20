@@ -1,0 +1,12 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.balltoball.jugadasuperliga",
+    "sha256_cert_fingerprints":
+    [
+      "B5:B7:43:20:58:AB:8C:02:38:FE:4F:AB:AC:18:BC:9A:F2:06:F7:01:98:7B:57:97:72:E0:F3:73:D3:22:72:40",
+      "A8:FC:AF:AB:41:11:44:EB:62:63:BD:77:0B:BA:04:05:AD:1D:1F:B3:E9:ED:83:B1:26:0C:88:17:C9:1B:0F:4D"
+    ]
+  }
+}]

@@ -1,0 +1,1 @@
+dbdiff -l safe postgres://lopezlean@localhost/superliga_realdata postgres://lopezlean@localhost/superliga_online 
